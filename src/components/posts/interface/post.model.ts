@@ -1,5 +1,6 @@
 import { Field, ObjectType } from '@nestjs/graphql';
 
+
 @ObjectType()
 export class PostModel {
   @Field((type) => String)
